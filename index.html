@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div class="menu">
+                <div class="link"></div>
+                <div class="link"></div>
+                <div class="link"></div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="text-box">
+        <h1>Welcome Prathap!</h1>
+        <p>In the Modern World Making Webite is easier thing You Must Know HTML ,CSS ,Javascript and make the Website.</p>
+        <button><a href="">Visit Us</a></button>
+    </section>
+
+    <section class="campus">
+        <h1>COURSES</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="courses">
+                <h1>Intermediate</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium consequuntur error reprehenderit at ducimus tempore dolores fugit, minus hic doloremque sint aliquam nesciunt nisi obcaecati dicta architecto perspiciatis. Laborum!</p>
+            </div>
+            <div class="courses">
+                <h1>Advanced</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium consequuntur error reprehenderit at ducimus tempore dolores fugit, minus hic doloremque sint aliquam nesciunt nisi obcaecati dicta architecto perspiciatis. Laborum!</p>
+            </div>
+            <div class="courses">
+                <h1>Medium</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium consequuntur error reprehenderit at ducimus tempore dolores fugit, minus hic doloremque sint aliquam nesciunt nisi obcaecati dicta architecto perspiciatis. Laborum!</p>
+            </div>
+        </div>
+    </section>
+    <section class="infrastructure">
+        <h1>Infrastructure</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="location">
+            <div class="location-detail">
+                <img src="./images/london.png" alt="London" class="location-logo">
+                <div class="overlay">
+                    <h1>LONDON</h1>
+                </div>
+            </div>
+            <div class="location-detail">
+                <img src="./images/newyork.png" alt="New York" class="location-logo">
+                <div class="overlay">
+                    <h1>NEW YORK</h1>
+                </div>
+            </div>
+            <div class="location-detail">
+                <img src="./images/washington.png" alt="Washington" class="location-logo">
+                <div class="overlay">
+                    <h1>WASHINGTON</h1>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="user">
+        <h1>USER FEEDBACK</h1>
+        <div class="user-information">
+            <div class="user-detail">
+                <img src="./images/user1.jpg" alt="User1" width="50px" height="50px">
+                <p>This is Website is more attractive and user friendly this Website make me more attractive tasks to achieve my dream jobs for my carrer</p>
+            </div>
+            <div class="user-detail">
+                <img src="./images/user2.jpg" alt="User2"  width="50px" height="50px">
+                <p>This is Website is more attractive and user friendly this Website make me more attractive tasks to achieve my dream jobs for my carrer</p>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="contact-detail">
+            <div class="contact-info">
+                <a href=""><img src="./images/gmail.png" alt="telephone" width="25px" height="25px">123@gmail.com</a>
+                <a href=""><img src="./images/maps-and-flags.png" alt="telephone" width="25px" height="25px">23rd street London.</a>
+                <a href=""><img src="./images/telephone.png" alt="telephone" width="25px" height="25px">1234567890</a>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        const menu=document.querySelector('.menu');
+        const nav=document.querySelector('.nav-links');
+        menu.onclick=() =>{
+            nav.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
